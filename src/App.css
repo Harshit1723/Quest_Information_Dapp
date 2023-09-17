@@ -1,0 +1,75 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #070707;
+    height: 45px;
+    position: relative;
+    
+}
+
+.container::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px; /* Height of the line */
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.navbar {
+    
+    display: flex;
+    align-items: center;
+    
+    border: none;
+}
+
+.navbar a{
+   padding: 0.5rem 1rem;
+   margin-right: 20px;
+   margin-left: 20px;
+    text-decoration: none;
+    color: rgb(251, 251, 249);
+    font-size: large;
+    font-weight: bold;
+}
+.navbar a:hover{
+    color: white;
+    
+    background-color: rgb(120, 73, 222);
+    
+    border-radius: 10rem 10rem
+}
+
+.connect-wallet{
+    color:black;
+    margin: 6rem;
+    font-size: large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding:0.5rem 2rem 0.5rem 2rem;
+    background-color:rgb(255, 208, 0); 
+    border: 2px solid white;
+    border-radius: 10rem 10rem;
+   
+}
+
+.connect-wallet:hover{
+    background-color: blueviolet;
+    color: white;
+}
+
+.curr-addr{
+    color:white;
+    margin: 6rem;
+    font-size: large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding:0.5rem 2rem 0.5rem 2rem;
+    background-color:rgb(116, 20, 242); 
+    border: 2px solid white;
+    border-radius: 10rem 10rem;
+   
+}
+
+

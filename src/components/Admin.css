@@ -1,0 +1,94 @@
+
+.admin-address-heading{
+    color: white;
+    
+    text-align: center;
+    padding: 2rem;
+    background-image: linear-gradient(to right,#fb0f5a,#ff9900);
+}
+.user-admin-form{
+    color: white;
+    display: flex;
+    
+    justify-content: center;
+}
+.form{
+    border: 3px solid rgb(255, 170, 0);
+    margin-top: 1rem;
+}
+.form-title{
+    
+    margin: 1rem;
+    padding: 5px;
+    text-align: center;
+}
+
+.form-title input{
+    border: 2px solid rgb(255, 255, 255);
+    color: white;
+    background-color: black;
+    border-radius: 2rem;
+    text-align: center;
+    font-size: larger;
+    padding: 10px;
+}
+
+.form-reward{
+    
+    margin: 1rem;
+    padding: 5px;
+    text-align: center;
+}
+
+.form-reward input{
+    border: 2px solid rgb(255, 255, 255);
+    color: white;
+    background-color: black;
+    border-radius: 2rem;
+    text-align: center;
+    font-size: larger;
+    padding: 10px;
+}
+
+.number-of-rewards{
+    
+    margin: 1rem;
+    padding: 5px;
+    text-align: center;
+}
+
+.number-of-rewards input{
+    border: 2px solid rgb(255, 255, 255);
+    color: white;
+    background-color: black;
+    border-radius: 2rem;
+    text-align: center;
+    font-size: larger;
+    padding: 10px;
+}
+
+.create-button{
+    border-radius: 2rem; 
+    border: 2px solid rgb(255, 255, 255);
+    color: white;
+    padding: 1rem;
+    font-size: larger;
+    margin-left: 2.2rem;
+    margin-bottom: 1rem;
+    padding-left: 3rem;
+    padding-right: 4.0rem;
+    text-align: center;
+    align-items: center;
+    background-image: linear-gradient(to right,#fb0f5a,#ff9900);}
+
+.create-button:hover{
+    cursor: pointer;
+    background-image: linear-gradient(to right,#b9ff15,#000dff);
+}
+
+
+
+
+
+
+

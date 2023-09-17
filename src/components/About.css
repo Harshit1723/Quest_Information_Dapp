@@ -1,0 +1,25 @@
+.about{
+    color:white;
+    
+    text-align: center;
+    font-size:4rem;
+}
+
+.content{
+    
+    color: white;
+}
+
+.project-description,.key-features,.tech-stack{
+    
+    margin-top: -2rem;
+    padding: 2rem;
+}
+.project-description h3,.key-features h3,.tech-stack h3{
+    font-size: xx-large;
+    margin-top: 1rem;
+}
+.project-description p,.key-features p,.tech-stack p{
+    font-size: large;
+    
+}

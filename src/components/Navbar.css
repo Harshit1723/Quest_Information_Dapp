@@ -1,0 +1,16 @@
+.navbar{
+    background-color: aqua;
+    color: black;
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+}
+.navbar a{
+    text-decoration: none;
+    color: orange;
+    margin-right: 20px;
+}
+
+.navbar a:hover{
+    text-decoration: underline;
+}

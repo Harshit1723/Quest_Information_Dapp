@@ -1,0 +1,275 @@
+body{
+    background-color: black;
+}
+
+.heading-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 30vh;
+    text-align: center;
+    margin-top: 4px;
+   
+    
+
+}
+
+.heading-div h1{
+    font-size: 3.75rem;
+    /*margin-bottom: 10px; */
+    color: white;
+    max-width: 96rem;
+    margin: 0 auto 2rem;
+    font-weight: bold;
+    letter-spacing: 0.025rem;
+    
+    padding-right: 200px;
+    padding-left: 200px;
+}
+
+.heading-div h4{
+    font-size: 1.2rem;
+    margin: 0 auto;
+    max-width: 28rem;
+    font-weight: bold;
+    display: inline-block;
+
+    background-image: linear-gradient(to right, #ff9100, #9000ff); /* from-codeOrange to-burple */
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.all-quests{
+   
+    margin: 10px;
+    padding: 20px;
+    
+    
+}
+
+.all-quests-heading{
+    color: rgb(255, 255, 255);
+    font-size: 2.75rem;
+    /*margin-bottom: 10px; */
+    
+    max-width: 96rem;
+    margin: 0 auto 2rem;
+    font-weight: bold;
+    letter-spacing: 0.025rem;
+    
+    padding-left: 20px;
+    margin-top: 20px;
+}
+
+.all-quests-1{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    min-height: 300px;
+    overflow-x: auto;
+}
+
+.all-quests-2{
+    border: 5px solid white;
+    margin: 5px;
+    margin-top: 2rem;
+    padding: 35px;
+    width: calc(70%);
+    border-radius: 3rem;
+    padding-bottom: 2px;
+
+   
+    
+ 
+
+ 
+    
+}
+
+.quest-heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    margin-top: 4px;
+   font-size: xx-large;
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px 10px;
+    letter-spacing: 0.5px;
+    border-radius: 2rem;
+
+    background-image:linear-gradient(to right, #ff9900, #9000ff);
+    color: white;
+}
+
+.quest-listitems{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    width: 350px;
+  
+    margin: 30px;
+    padding: 25px;
+    margin-top: -25px;
+    line-height: 2rem;
+    font-size: larger;
+    position: relative;
+    font-weight: bold;
+
+    color: white;
+}
+
+.quest-listitems li{
+    display: flex;
+    justify-content: space-between;
+}
+
+.quest-listitems li::before{
+    content: attr(data-label);
+    
+    margin-left: 10px;
+    margin-right: 0px;
+    
+    
+   
+    
+}
+.quest-listitems li::after{
+    
+    margin-left: 10px;
+    margin-right: 10px;
+   
+    
+}
+
+.quest-status{
+    position: absolute;
+    display: flex;
+    
+    margin-left: 450px;
+    
+    width: 150px;
+    height: 100px;
+
+    justify-content: center;
+    margin-top: 7px;
+    padding: 10px;
+    align-items: center;
+   text-align: center;
+
+  
+}
+
+.quest-status li{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    border: 6px solid white;
+    color:white;
+
+        border-radius: 2rem;
+    font-size: x-large;
+    font-weight: bold;
+    padding: 20px;
+    margin-left: -2.5rem;
+}
+
+.actions{
+    
+    color:white;
+        font-size: 1.75rem;
+        /*margin-bottom: 10px; */
+        
+        
+        max-width: 96rem;
+        margin: 0 auto 2rem;
+        font-weight: bold;
+        letter-spacing: 0.025rem;
+        
+        padding-left: 20px;
+        margin-top: 5rem;
+    
+    
+    
+    
+    
+}
+
+.actions h2{
+    margin-left:60px;
+    
+    
+}
+
+.text-dec{
+    text-decoration: none;
+}
+
+.handling-quest{
+    
+    margin-top: 5px;
+    padding: 10px;
+    display: flex;
+    justify-content:space-around;
+    flex-direction:row;
+    
+    align-items: center;
+    text-align: center;
+}
+
+.join-quest, .submit-quest{
+    
+    flex-grow: 1;
+
+    margin: 10px;
+    padding: 50px;
+
+    display: flex;
+    flex-direction: column;    
+}
+
+
+
+.join-quest input, .submit-quest input{
+    
+    border: 4px solid white;
+    border-radius: 2rem;
+    padding: 15px;
+    font-size: large;
+    background-color:transparent;
+
+    outline: none;
+    color: white;
+    text-align: center;
+    
+}
+.join-quest button,.submit-quest button{
+    border: 1px solid white;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #ff0095;
+    color: white;
+    font-size:20px ;
+}
+
+.join-quest button:hover,.submit-quest button:hover{
+    border: 4px solid white;
+    
+}
+
+.submitted{
+    background-image:linear-gradient(to right, #139333, #00ff22);
+}
+.joined{
+   
+    background-image:linear-gradient(to right, #eded0e, #ffe100);
+}
+.not_joined{
+    background-image:linear-gradient(to right, #ff0000, #d80754);
+}
+
+
+
